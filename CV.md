@@ -2,6 +2,7 @@ Name: Nurbolat Tagabay
 
 My Contact Info:
 https://t.me/bezymany 
+discord @Nuurik#7080
 github @nuurik
 
 About Me: 
