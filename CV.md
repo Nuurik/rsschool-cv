@@ -29,4 +29,4 @@ MySQL with Flenov
 
 Languages: 
 english B2 (in process) 
-russian native
+russian: native
