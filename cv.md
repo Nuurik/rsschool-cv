@@ -1,29 +1,29 @@
-Name: Nurbolat Tagabay
+* Name: Nurbolat Tagabay
 
-My Contact Info:
-https://t.me/usereddi
-discord @Nuurik#7080
-github @nuurik
+1. Skills:
+    * HTML (basic)
+    * CSS (basic)
+    * JavaScript (basic) 
 
-About Me: 
-I am 24 years old
+1. Code examples 
+    * ```javascript
+        console.log("it is js")
+        ```
 
-Skills:
-HTML (basic)
-CSS (basic)
-JavaScript (basic) 
+1. My Contact Info:
+    * telegram: @usereddi
+    * discord: @Nuurik#7080
+    * github: @Nuurik
 
-Code examples 
+1. About Me: 
+    * I am 24 years old
 
+1. Work: 
+    * worker
 
-Work: 
-worker
+1. Education: 
+    * IT bachelor
 
-Education: 
-IT bachelor
-youtube lecture - Simple code about С++ 
-MySQL with Flenov
-
-Languages: 
-english B1 
-russian: native
+1. Languages: 
+    * english B1 
+    * russian: native
