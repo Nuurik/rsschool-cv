@@ -1,4 +1,4 @@
-* Name: Nurbolat Tagabay
+1. Name: *Nurbolat Tagabay*
 
 1. Skills:
     * HTML (basic)
@@ -25,5 +25,5 @@
     * IT bachelor
 
 1. Languages: 
-    * english B1 
+    * english: B1
     * russian: native
