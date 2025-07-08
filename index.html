@@ -9,73 +9,149 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+    <title>CV#3. CV. Cross Check</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>
-                CV
-            </h1>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="main">
-        <div class="container">
-            <section class="section__photo">
-                <img title="I am human" src="assets/img/ava.jpg" alt="My photo">
-            </section>
+    <!-- <div class="wrapper__body"> -->
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-            <p>
-                Name: Nurbolat Tagabay
+        <main class="main">
+            <div class="container">
+                <section class="profile">
+                    <h1>
+                        Name: Nurbolat Tagabay
+                    </h1>
+                    <img title="I am human" src="assets/img/ava.jpg" alt="My photo">
+                </section>
 
-                Skills:
-                HTML (basic)
-                CSS (basic)
-                JavaScript (basic)
+                <section class="skills">
+                    <h2>Skills:</h2>
+                    <ul>
+                        <li>
+                            <p>HTML (basic)</p>
+                        </li>
+                        <li>
+                            <p>CSS (basic)</p>
+                        </li>
+                        <li>
+                            <p>JavaScript (basic)</p>
+                        </li>
+                    </ul>
+                </section>
 
-                Code examples
-                javascript
-                console.log("it is js")
+                <section class="code">
+                    <h2>Code examples:</h2>
+                    <code>
+                        <pre>
+const quarterOf = (month) => {
+  // Your code here
+  if (month >= 10){
+    return 4
+  };
+  if (month <= 9 && month >=7){
+    return 3
+  };
+  if (month <= 6 && month >= 4){
+    return 2
+  };
+  if (month <= 3){
+    return 1
+  }
+}
+                        </pre>
+                    </code>
+                </section>
 
+                <section class="projects">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li>
+                            <p>CV site</p>
+                        </li>
+                    </ul>
+                </section>
 
-                My Contact Info:
-                telegram: @usereddi
-                discord: @Nuurik#7080
-                github: @Nuurik
+                <section class="courses">
+                    <h2>Courses:</h2>
+                    <ul>
+                        <li>
+                            <p>RSSchool js pre school</p>
+                        </li>
+                    </ul>
+                </section>
 
-                About Me:
-                I am 24 years old
+                <section class="work">
+                    <h2>Work:</h2>
+                    <p>worker</p>
+                </section>
 
-                Work:
-                worker
+                <section class="contacts">
+                    <h2>My Contact Info:</h2>
+                    <ul>
+                        <li>
+                            <p>telegram: @usereddi</p>
+                        </li>
+                        <li>
+                            <p>discord: @Nuurik#7080</p>
+                        </li>
+                        <li>
+                            <p>github: @Nuurik</p>
+                        </li>
+                    </ul>
+                </section>
 
-                Education:
-                IT bachelor
+                <section class="languages">
+                    <h2>Languages:</h2>
+                    <ul>
+                        <li>
+                            <p>english: B1</p>
+                        </li>
+                        <li>
+                            <p>russian: native</p>
+                        </li>
+                    </ul>
+                </section>
 
-                Languages:
-                english: B1
-                russian: native
+                <section class="education">
+                    <h2>Education:</h2>
+                    <p>IT bachelor</p>
+                </section>
 
-            </p>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <section class="footer__section">
-                <p>
-                    footer
-                </p>
-            </section>
-        </div>
-    </footer>
+                <section class="summary">
+                    <h2>About Me:</h2>
+                    <p>I am 24 years old</p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <section class="section__footer">
+                    <p>
+                        footer
+                    </p>
+                </section>
+            </div>
+        </footer>
+    <!-- </div> -->
 </body>
 
 </html>

@@ -10,6 +10,8 @@
 }
 
 body {
+  margin: 0 auto;
+  max-width: 800px;
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
   display: flex;
@@ -17,7 +19,14 @@ body {
   justify-content: space-between;
 }
 
-.container{
+.container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
 }
