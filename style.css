@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto.ttf");
+}
+
+/* .nav {
+  display: flex;
+  justify-content: center;
+} */
+
+.nav-list {
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 665px;
+  padding: 10px;
+  column-gap: 5px;
+  row-gap: 5px; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  list-style: none;
+}
+
+/* .nav-item {
+  width: 125px;
+} */
+.nav-link {
+  padding: 0 10px;
+  line-height: 50px;
+  transition: 0.3s;
+}
+
+a {
+  color: #829985;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: #4d2323;
+}
+
+body {
+  width: min(100%, 992px);
+  margin: 0 auto;
+  padding: 0 10px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: darkgray;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container {
+  padding: 20px;
+}
+
+#rs-school-logo {
+  width: 200px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: yellow;
+
+}
+
+#ava {
+  padding-top: 10px;
+  border-radius: 40px;
+}
+
+#name {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 1em;
+}
