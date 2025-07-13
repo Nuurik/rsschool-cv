@@ -44,15 +44,13 @@ html {
   transition: 0.3s;
 }
 
-footer a,
-nav a {
+a {
   color: #829985;
   text-decoration: none;
   transition: color 0.5s;
 }
 
-footer a:hover,
-nav a:hover {
+a:hover {
   color: #4d2323;
 }
 
@@ -79,7 +77,10 @@ body {
 
 #rs-school-logo {
   width: 200px;
-  padding-top: 10px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: yellow;
+
 }
 
 #ava {
